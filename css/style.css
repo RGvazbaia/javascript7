@@ -137,7 +137,8 @@
   color: #fff;
 }
 .team-title:before {
-  content: "+";
+  content: '\f077';
+  font: var(--fa-solid-fa-chevron-up);
   position: absolute;
   top: 50%;
   right: 30px;
