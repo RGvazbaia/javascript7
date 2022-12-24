@@ -1,0 +1,116 @@
+@media (max-width: 1024px) {
+  .upfirstdiv {
+    margin-bottom: 50px;
+  }
+  .lilbox {
+    margin: 20px;
+  }
+  .secondblock {
+    max-width: 880px;
+    width: 100%;
+  }
+  .leftblock {
+    margin: 0;
+    margin-top: 100px;
+  }
+  .upfirstdiv h2 {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .teamblock {
+    justify-content: center;
+    align-items: center;
+  }
+  .teambox {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .burger-bar {
+    display: block;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .nav-ul li a {
+    font-size: 30px;
+  }
+  .nav-ul :nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .nav-ul :nth-child(4) {
+    margin-top: 20px;
+  }
+  .upfirstdiv h2 {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .imgclass :nth-child(1) {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .teambox img {
+    max-width: 700px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .upfirstdiv h2 {
+    font-size: 40px;
+  }
+  .upfirstdiv p {
+    font-size: 23px;
+  }
+  .imgclass :nth-child(1) {
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  /* login responsive */
+  .orsignwith :nth-child(2) {
+    display: none;
+  }
+  .loginbox {
+    max-width: 410px;
+    width: 100%;
+  }
+  .orsignwith {
+    max-width: 300px;
+    width: 100%;
+  }
+  .footer-block p {
+    font-size: 14px;
+  }
+  .teambox img {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .upfirstdiv h2 {
+    font-size: 30px;
+  }
+  .upfirstdiv p {
+    font-size: 20px;
+  }
+
+  /* login responsive */
+  .loginbox {
+    max-width: 310px;
+    width: 100%;
+  }
+  .orsignwith :nth-child(1) {
+    display: none;
+  }
+  .orsignwith :nth-child(2) {
+    display: none;
+  }
+  .teambox img {
+    max-width: 300px;
+    width: 100%;
+  }
+}
