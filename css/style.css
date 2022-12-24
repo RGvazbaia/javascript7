@@ -31,23 +31,33 @@
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.5s;
+  transition-duration: 2s;
+  box-shadow: 0 0 0 0.5px #fff;
 }
 .line1 {
   top: 30%;
+  
+  
 }
 .line3 {
   top: 70%;
+  
+  
 }
+
 .activeBugerBar .line1 {
   top: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(30deg);
+  
 }
-.activeBugerBar .line2 {
-  display: none;
+.activeBugerBar .line2 {    
+    transform: translate(-50%, -50%) rotate(90deg);
+
 }
+
 .activeBugerBar .line3 {
   top: 50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-30deg);
 }
 .nav-ul.toggleNavigation {
   position: absolute;
@@ -197,4 +207,14 @@
   font-size: 20px;
   text-align: center;
   margin-top: 20px;
+}
+.fa-facebook {
+  color: #3549e5;
+}
+.fa-instagram {
+  color: #a020f0;
+}
+
+.fa-twitter {
+  color: #00acee;
 }
